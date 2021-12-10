@@ -10,5 +10,7 @@
             this.languageName = languageName;
             this.proficiencyLevel = proficiencyLevel;
         }
+        public string LanguageName { get { return languageName; } }
+        public int ProficiencyLevel { get { return proficiencyLevel; } }
     }
 }

@@ -16,8 +16,25 @@
             this.age = age;
             this.languages = languages;
         }
-        public string FirstName() { return firstName; }
-        public string LastName() { return lastName; }
-        public int Age() { return age; }
+        public string FirstName
+        {
+            get { return firstName; }
+        }
+        public string LastName
+        {
+            get { return lastName; }
+        }
+        public int Age
+        {
+            get { return age; }
+        }
+        public List<Language> Languages
+        {
+            get { return languages; }
+        }
+        public int EmployeeNumber {
+            get { return employeeNumber; }
+            set { employeeNumber = value; } 
+        }
     }
 }
